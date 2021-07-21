@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  /* --primary-color: #880e4f; */
+  --primary-color: #1d2228;
+  /* --secondary-color: #560027; */
+  --secondary-color: #fb8122;
+  --text-color: #e1e2e2;
+}
+
+html {
+  background-color: #162b32;
+  background: url("./images/image.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: var(--text-color);
+}
+.container {
+  width: 75vw;
+  margin: 0 auto;
+  height: calc(100vh - 50px);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
