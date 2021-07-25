@@ -24,7 +24,7 @@ const projectsArr = [
     github: 'https://github.com/shiwanshudev/marked_previewer'
   },
   {
-    title: "ReactJS Dynamic Quiz",
+    title: "ReactJS Dynamic Quiz (Trivia API)",
     img: Img3,
     desc:
       "Side project created for practicing my skills. The application uses ReactJS, Open Trivia DB API, Axios and Bootstrap.",
