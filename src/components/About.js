@@ -15,16 +15,7 @@ export default function About(props) {
         <ul className="cert">
           <li>
             <a
-              href="https://www.freecodecamp.org/certification/shiwanshu/front-end-libraries/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Front End Libraries
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.freecodecamp.org/certification/shiwanshu/javascript-algorithms-and-data-structures"
+              href="https://www.freecodecamp.org/certification/shiwanshudev/javascript-algorithms-and-data-structures"
               rel="noreferrer"
               target="_blank"
             >
@@ -33,10 +24,7 @@ export default function About(props) {
           </li>
         </ul>
         <div className="contact-icons">
-          <a href="https://boxicons.com/" rel="noreferrer" target="_blank">
-            <i className="bx bxl-linkedin-square"></i>
-          </a>
-          <a href="https://boxicons.com/" rel="noreferrer" target="_blank">
+          <a href="https://github.com/shiwanshudev" rel="noreferrer" target="_blank">
             <i class="bx bxl-github"></i>
           </a>
         </div>
