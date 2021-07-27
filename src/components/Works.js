@@ -9,7 +9,7 @@ const projectsArr = [
     title: "Sales Invoice MERN",
     img: Img1,
     desc:
-      "Application created as a minor project for University which manages items in the Grocery Store and generates invoices which are stored in database. Project was designed and implemented from scratch with MERN stack.",
+      "Application created as a minor project for University which manages items in the Grocery Store and generates invoices.",
     link: "https://sales-invoice-mern.netlify.app/",
 
     github: ""
@@ -24,7 +24,7 @@ const projectsArr = [
     github: 'https://github.com/shiwanshudev/marked_previewer'
   },
   {
-    title: "ReactJS Dynamic Quiz (Trivia API)",
+    title: "Dynamic Quiz (Trivia API)",
     img: Img3,
     desc:
       "Side project created for practicing my skills. The application uses ReactJS, Open Trivia DB API, Axios and Bootstrap.",
