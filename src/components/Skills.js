@@ -7,34 +7,34 @@ export default function Skills(props) {
         <p>Javascript</p>
       </div>
       <div className="skill-card">
-        <i class="bx bxl-react"></i>
+        <i className="bx bxl-react"></i>
         <p>ReactJS</p>
       </div>
 
       <div className="skill-card">
-        <i class="bx bxl-bootstrap"></i>
+        <i className="bx bxl-bootstrap"></i>
         <p>Bootstrap</p>
       </div>
       <div className="skill-card">
-        <i class="bx bxl-nodejs"></i>
+        <i className="bx bxl-nodejs"></i>
         <p>NodeJS</p>
       </div>
 
       <div className="skill-card">
-        <i class="bx bxl-css3"></i>
+        <i className="bx bxl-css3"></i>
         <p>CSS3</p>
       </div>
 
       <div className="skill-card">
-        <i class="bx bxl-html5"></i>
+        <i className="bx bxl-html5"></i>
         <p>HTML5</p>
       </div>
       <div className="skill-card">
-        <i class="bx bxl-adobe"></i>
+        <i className="bx bxl-adobe"></i>
         <p>Phostoshop</p>
       </div>
       <div className="skill-card">
-        <i class="bx bxs-data"></i>
+        <i className="bx bxs-data"></i>
         <p>MongoDB</p>
       </div>
     </div>

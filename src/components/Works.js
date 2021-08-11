@@ -37,13 +37,14 @@ export default function Works(props) {
     <div className="container">
       <h1>Project Works</h1>
       <div className="card-container">
-        {projectsArr.map((project) => (
+        {projectsArr.map((project, i) => (
           <Card
             img={project.img}
             title={project.title}
             desc={project.desc}
             link={project.link}
             github = {project.github}
+            key={i}
           />
         ))}
       </div>

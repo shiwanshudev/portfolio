@@ -20,7 +20,7 @@ export default function Navbar(props) {
             to="/"
             onClick={closeMobileMenu}
           >
-            <i class="bx bxs-home"></i> Home
+            <i className="bx bxs-home"></i> Home
           </NavLink>
         </li>
         <li className="nav-item">
@@ -30,7 +30,7 @@ export default function Navbar(props) {
             to="/skills"
             onClick={closeMobileMenu}
           >
-            <i class="bx bxs-book-alt"></i> Skills
+            <i className="bx bxs-book-alt"></i> Skills
           </NavLink>
         </li>
         <li className="nav-item">
@@ -40,7 +40,7 @@ export default function Navbar(props) {
             to="/works"
             onClick={closeMobileMenu}
           >
-            <i class="bx bxs-briefcase"></i> Works
+            <i className="bx bxs-briefcase"></i> Works
           </NavLink>
         </li>
         <li className="nav-item">
@@ -50,7 +50,7 @@ export default function Navbar(props) {
             to="/about"
             onClick={closeMobileMenu}
           >
-            <i class="bx bxs-user-rectangle"></i> About
+            <i className="bx bxs-user-rectangle"></i> About
           </NavLink>
         </li>
       </ul>
