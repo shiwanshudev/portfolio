@@ -10,10 +10,10 @@ export default function Card(props) {
         <div className="card-heading">
           <h2>{props.title}</h2>
         </div>
-        <div className="card-desc">
-          <p>{props.desc}</p>
-        </div>
-
+ 
+          <p className="card-desc">{props.desc}</p>
+          
+        <div>
         {props.link && <a
           className="card-btn"
           href={props.link}
@@ -31,6 +31,7 @@ export default function Card(props) {
         >
           Github
         </a>}
+        </div>
       </div>
     </div>
   );

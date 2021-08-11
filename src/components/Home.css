@@ -7,7 +7,7 @@
 }
 .hero h1 {
   color: var(--text-color);
-  font-size: 54px;
+  font-size: 3.9rem;
   text-align: center;
   font-weight: 700;
   padding: 10px;
@@ -16,7 +16,7 @@
 }
 
 .hero .lead {
-  font-size: 39px;
+  font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--secondary-color);
@@ -32,20 +32,13 @@
     font-size: 34px;
   }
 }
-@media screen and (max-width: 500px) {
-  .hero h1 {
-    font-size: 39px;
-  }
-  .hero .lead {
-    font-size: 30px;
-  }
-}
+
 .btn {
   outline: none;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--text-color);
   padding: 12px 20px;
-  font-size: 16px;
-  background-color: var(--primary-color);
+  font-size: 1.1rem;
+  background-color: none;
   border-radius: 5000px;
   cursor: pointer;
   color: var(--text-color);

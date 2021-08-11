@@ -1,6 +1,6 @@
 .card {
-  background-color: var(--secondary-color);
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 
   width: 300px;
   border-radius: 7px;
@@ -16,11 +16,15 @@
 
 .card-desc p {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 1.2rem;
   font-weight: 300;
 
 }
-
+.card-desc{
+    flex-grow: 1;
+    padding-bottom: 10px;  
+    line-height: 1.5;
+}
 .card-btn {
   outline: none;
   border: 1px solid var(--primary-color);
@@ -38,18 +42,21 @@
 }
 
 .card-btn:hover {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
-  color: #fff;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 .card-info {
-  padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
 }
 
 .card-heading h2{
   text-align: center;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .card:hover {
