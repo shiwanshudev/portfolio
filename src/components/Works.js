@@ -3,6 +3,7 @@ import Img1 from "../images/project1.png";
 import Img2 from "../images/project2.png";
 import Img3 from "../images/project3.png";
 import Img4 from "../images/project4.png";
+import Img5 from "../images/project5.png";
 import Card from "./Card";
 
 const projectsArr = [
@@ -40,6 +41,14 @@ const projectsArr = [
     link: "https://shiwanshu.netlify.app/",
     github: 'https://github.com/shiwanshudev/portfolio'
   },
+  {
+    title: "NodeJS Blog",
+    img: Img5,
+    desc: "Simple blog that supports markdown. Created this while learning about NodeJS and ExpressJS.",
+    link: "https://node-markdown-blog.herokuapp.com/",
+    github: "https://github.com/shiwanshudev/nodejs-markdown-blog"
+
+  }
 ];
 export default function Works(props) {
   return (
