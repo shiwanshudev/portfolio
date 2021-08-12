@@ -44,7 +44,7 @@ const projectsArr = [
   {
     title: "NodeJS Blog",
     img: Img5,
-    desc: "Simple blog that supports markdown. Created this while learning about NodeJS and ExpressJS.",
+    desc: "Simple blog that supports markdown. Created this while learning about NodeJS and ExpressJS. It uses EJS as templating engine.",
     link: "https://node-markdown-blog.herokuapp.com/",
     github: "https://github.com/shiwanshudev/nodejs-markdown-blog"
 
