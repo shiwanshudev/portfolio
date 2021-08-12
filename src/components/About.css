@@ -1,48 +1,46 @@
 .about-section {
   width: 50vw;
-  margin: 0 auto 100px auto;
-  background: #fff;
-  color: var(--primary-color);
-  padding: 5vw;
-  line-height: 2;
+  margin: 0 auto;
+  background-color: rgba(29, 34, 40, 0.8);
+  color: var(--text-color);
+  padding: 2rem;
+  line-height: 1.5;
   border-radius: 5px;
   font-size: 18px;
-  word-spacing: 5px;
   font-weight: 300;
 }
 
+
+.about-h1{
+  padding: 1.5rem;
+}
 .about-title {
-  border-bottom: 1px solid var(--primary-color);
   display: inline-block;
-  padding: 5px;
   font-weight: 300;
-  margin-bottom: 20px;
 }
 .cert a {
   text-decoration: none;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--text-color);
   padding: 5px;
   margin: 10px 0;
   display: inline-block;
-  color: var(--primary-color);
+  color: var(--text-color);
   transition: all 0.2s;
   word-spacing: normal;
 }
 .cert a:hover {
-  background-color: var(--primary-color);
-  color: #fff;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .cert li {
   list-style: none;
 }
-.contact-icons {
-  margin-top: 50px;
-}
+
 .contact-icons a {
   font-size: 45px;
   margin-right: 10px;
-  color: var(--primary-color);
+  color: var(--text-color);
   text-decoration: none;
 }
 .contact-icons a:hover {

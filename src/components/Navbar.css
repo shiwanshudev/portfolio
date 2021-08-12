@@ -37,6 +37,7 @@
   background: var(--secondary-color);
   color: var(--primary-color);
 }
+
 .hamburger {
   display: none;
 }

@@ -2,7 +2,7 @@ import "./About.css";
 export default function About(props) {
   return (
     <div className="about-container">
-      <h1>About</h1>
+      <h1 className="about-h1">About</h1>
       <section className="about-section">
         <h2 className="about-title">About me</h2>
         <p className="about-text">
@@ -25,7 +25,7 @@ export default function About(props) {
         </ul>
         <div className="contact-icons">
           <a href="https://github.com/shiwanshudev" rel="noreferrer" target="_blank">
-            <i class="bx bxl-github"></i>
+            <i className="bx bxl-github"></i>
           </a>
         </div>
       </section>

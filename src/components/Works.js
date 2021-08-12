@@ -12,7 +12,7 @@ const projectsArr = [
       "Application created as a minor project for University which manages items in the Grocery Store and generates invoices.",
     link: "https://sales-invoice-mern.netlify.app/",
 
-    github: ""
+    github: "https://github.com/shiwanshudev/mern-invoice-app"
   },
   {
     title: "Marked Previewer",
@@ -29,7 +29,7 @@ const projectsArr = [
     desc:
       "Side project created for practicing my skills. The application uses ReactJS, Open Trivia DB API, Axios and Bootstrap.",
     link: "https://dynamicquizreact.netlify.app/",
-    github: 'link'
+    github: 'https://github.com/shiwanshudev/quiz-app'
   },
 ];
 export default function Works(props) {

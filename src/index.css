@@ -14,12 +14,12 @@ code {
   /* --primary-color: #880e4f; */
   --primary-color: #1d2228;
   /* --secondary-color: #560027; */
-  --secondary-color: #fb8122;
+  --secondary-color: #ff6a3d;
   --text-color: #e1e2e2;
 }
 
 html {
-  background-color: #162b32;
+  /* background-color: var(--primary-color); */
   background: url("./images/image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
