@@ -2,6 +2,7 @@ import "./Works.css";
 import Img1 from "../images/project1.png";
 import Img2 from "../images/project2.png";
 import Img3 from "../images/project3.png";
+import Img4 from "../images/project4.png";
 import Card from "./Card";
 
 const projectsArr = [
@@ -30,6 +31,14 @@ const projectsArr = [
       "Side project created for practicing my skills. The application uses ReactJS, Open Trivia DB API, Axios and Bootstrap.",
     link: "https://dynamicquizreact.netlify.app/",
     github: 'https://github.com/shiwanshudev/quiz-app'
+  },
+  {
+    title: "Portfolio Site",
+    img: Img4,
+    desc:
+      "This portfolio site was created with the help of ReactJS. It utilizes React Hooks and uses react-router-dom for routing.",
+    link: "https://shiwanshu.netlify.app/",
+    github: 'https://github.com/shiwanshudev/portfolio'
   },
 ];
 export default function Works(props) {
