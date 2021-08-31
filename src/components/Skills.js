@@ -12,6 +12,11 @@ export default function Skills(props) {
       </div>
 
       <div className="skill-card">
+        <i className="bx bxl-redux"></i>
+
+        <p>Redux</p>
+      </div>
+      <div className="skill-card">
         <i className="bx bxl-bootstrap"></i>
         <p>Bootstrap</p>
       </div>

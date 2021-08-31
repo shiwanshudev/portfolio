@@ -5,7 +5,7 @@ export default function Home(props) {
     <div className="container">
       <section className="hero">
         <h1>Shiwanshu Shubham</h1>
-        <p className="lead">Web Developer</p>
+        <p className="lead">React Developer</p>
         <div className="projects-div">
           <Link to="/works" className="btn">
             <i className="bx bxs-briefcase"></i> Projects
