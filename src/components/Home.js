@@ -1,16 +1,18 @@
 import "./Home.css";
-import { Link } from "react-router-dom";
-export default function Home(props) {
+import React from "react";
+import { SiReact } from "react-icons/si";
+import images from "./assets/images";
+
+export default function Home() {
   return (
-    <div className="container">
-      <section className="hero">
-        <h1>Shiwanshu Shubham</h1>
-        <p className="lead">React Developer</p>
-        <div className="projects-div">
-          <Link to="/works" className="btn">
-            <i className="bx bxs-briefcase"></i> Projects
-          </Link>
-        </div>
+    <div id="home" className="home container">
+      <section className="text-content">
+        <h1>Hi! I'm Shiwanshu!</h1>
+        <p>I create web applications, ux designs and blog about technology.</p>
+        <a className="hire-button">Hire Me!</a>
+      </section>
+      <section className="home-vector">
+        <img src={images.homeBg} alt="Home Vector" />
       </section>
     </div>
   );

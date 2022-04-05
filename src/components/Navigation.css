@@ -1,0 +1,51 @@
+.navbar {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  position: fixed;
+  background-color: slateblue;
+  z-index: 1;
+  animation: slideDown 0.5s;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .nav-link {
+  list-style: none;
+  padding: 20px;
+}
+
+.navbar .nav-link a {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.navbar .nav-link a:hover {
+  color: rgb(210, 173, 245);
+}
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-25%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

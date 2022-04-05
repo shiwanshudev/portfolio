@@ -1,55 +1,84 @@
-.hero {
-  height: 100%;
+.home.container {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
-.hero h1 {
-  color: var(--text-color);
-  font-size: 3.9rem;
-  text-align: center;
-  font-weight: 700;
-  padding: 10px;
-  font-family: "Dancing Script", cursive;
-  /* font-family: "Great Vibes", cursive; */
+.home h1 {
+  padding: 20px 0;
+  font-size: 3.5rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
 }
 
-.hero .lead {
+.home p {
+  font-weight: 300;
   font-size: 3rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: var(--secondary-color);
-  margin: 10px;
-  font-family: "Voltaire", sans-serif;
+  line-height: 1.2;
+}
+.home .text-content {
+  width: 60%;
+  font-family: "Lato", sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-  .hero h1 {
-    font-size: 50px;
-  }
-  .hero .lead {
-    font-size: 34px;
-  }
+.home .home-vector {
+  width: 40%;
 }
 
-.btn {
-  outline: none;
-  border: 1px solid var(--text-color);
-  padding: 12px 20px;
-  font-size: 1.1rem;
-  background-color: none;
-  border-radius: 5000px;
+.home .home-vector img {
+  width: 100%;
+}
+
+.home .hire-button {
+  padding: 10px 20px;
+  font-weight: 300;
+  font-size: 1.8rem;
+  background-color: slateblue;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 50px;
   cursor: pointer;
-  color: var(--text-color);
-  transition: all 0.2s;
-  text-decoration: none;
-  display: block;
-  margin-top: 20px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
 
-.btn:hover {
-  border: 1px solid var(--secondary-color);
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+.home .hire-button:hover {
+  background-color: rgb(124, 107, 233);
+}
+
+.home .credit {
+  font-size: 0.5rem;
+}
+
+.home .logo {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .home.container {
+    flex-direction: column;
+  }
+  .home .text-content {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+  }
+
+  .home .home-vector {
+    display: none;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+  }
+
+  .home p {
+    font-size: 2.5rem;
+  }
+  .home.container {
+    width: 80vw;
+  }
 }

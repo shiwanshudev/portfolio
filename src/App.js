@@ -1,26 +1,15 @@
-import "./App.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./index.css";
+import React from "react";
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Works from "./components/Works";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Error from "./components/Error";
+import Navigation from "./components/Navigation";
 
-function App() {
+const App = () => {
   return (
-    <BrowserRouter>
-      <Navbar />
-
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/works" component={Works} />
-        <Route path="/skills" component={Skills} />
-        <Route path="/about" component={About} />
-        <Route component={Error} />
-      </Switch>
-    </BrowserRouter>
+    <div>
+      <Navigation />
+      <Home />
+    </div>
   );
-}
+};
 
 export default App;
