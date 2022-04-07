@@ -1,0 +1,86 @@
+.projects.container {
+  padding-top: 1rem;
+}
+.projects h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+.projects .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projects .card {
+  width: 18rem;
+  padding: 1rem 1rem 1.4rem 1rem;
+  border-radius: 5px;
+  margin: 2rem;
+  border: 1px solid #e0dbff;
+  box-shadow: 0 0 10px 2px rgba(106, 90, 205, 0.1);
+  transition: transform 0.2s;
+}
+
+.projects .card:hover {
+  transform: translateY(-1%);
+}
+.projects .card .view-link {
+  padding: 10px 20px;
+  font-weight: 300;
+  font-size: 1rem;
+  background-color: slateblue;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0.5rem 0 2rem 0;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projects .card .view-link:hover {
+  background-color: rgb(124, 107, 233);
+}
+
+.projects .card .technologies span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: rgb(200, 197, 217);
+
+  padding: 5px;
+  margin-right: 8px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.projects .card img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.projects .card h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 300;
+  padding-top: 1rem;
+  color: #afa4eb;
+}
+
+.projects .card p {
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  padding: 1rem 0;
+  color: #334250;
+}
+
+@media screen and (max-width: 900px) {
+  .projects.container {
+    width: 95vw;
+  }
+}

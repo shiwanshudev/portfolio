@@ -20,7 +20,7 @@ export default function Navigation() {
               </a>
             </li>
             <li className="nav-link">
-              <a href="#" onClick={() => setDisplayMenu(!displayMenu)}>
+              <a href="#projects" onClick={() => setDisplayMenu(!displayMenu)}>
                 Projects
               </a>
             </li>
