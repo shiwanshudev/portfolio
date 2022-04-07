@@ -27,23 +27,23 @@ const Projects = () => {
           </div>
         </div>
         <div className="card">
-          <img src={images.projectMarkdown} alt="Markdown Project" />
-          <h3>Markdown Previewer</h3>
+          <img src={images.projectQuiz} alt="Quiz Project" />
+          <h3>Quiz Trivia API</h3>
           <p>
-            Project created with marked.js, water.css and create-react-app. A
-            simple marked previewer created with ReactJS.
+            "Side project created for practicing my skills. The application uses
+            ReactJS, Open Trivia DB API, Axios and Bootstrap.",
           </p>
           <a
             className="view-link"
-            href="https://viewmarkdown.netlify.app/"
+            href="https://dynamicquizreact.netlify.app/"
             target="_blank"
           >
             View
           </a>
           <div className="technologies">
-            <span>MarkedJS</span>
-            <span>Water CSS</span>
             <span>ReactJS</span>
+            <span>Bootstrap</span>
+            <span>Axios</span>
           </div>
         </div>
         <div className="card">
