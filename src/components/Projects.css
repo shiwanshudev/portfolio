@@ -28,6 +28,12 @@
 .projects .card:hover {
   transform: translateY(-1%);
 }
+
+.links {
+  position: relative;
+  height: 4.5rem;
+  width: 100%;
+}
 .projects .card .view-link {
   padding: 10px 20px;
   font-weight: 300;
@@ -35,11 +41,11 @@
   background-color: slateblue;
   border: none;
   border-radius: 5px;
-  display: inline-block;
   margin: 0.5rem 0 2rem 0;
   cursor: pointer;
   color: #fff;
   font-family: "Montserrat", sans-serif;
+  display: inline-block;
 }
 
 .projects .card .view-link:hover {
@@ -58,6 +64,18 @@
   text-transform: uppercase;
 }
 
+.github-link {
+  font-size: 2rem;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: slategray;
+}
+
+.github-link:hover {
+  color: rgb(124, 107, 233);
+}
 .projects .card img {
   border-radius: 5px;
   width: 100%;
