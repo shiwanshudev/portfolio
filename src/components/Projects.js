@@ -42,8 +42,8 @@ const Projects = () => {
           <img src={images.projectQuiz} alt="Quiz Project" />
           <h3>Quiz Trivia API</h3>
           <p>
-            "Side project created for practicing my skills. The application uses
-            ReactJS, Open Trivia DB API, Axios and Bootstrap.",
+            Side project created for practicing my skills. The application uses
+            ReactJS, Open Trivia DB API, Axios and Bootstrap.
           </p>
           <div className="links">
             <a

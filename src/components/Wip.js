@@ -6,7 +6,7 @@ export function Wip() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        background: "slateblue",
+        background: "gray",
       }}
     >
       <h1 style={{ color: "white" }}>Work In Progress</h1>

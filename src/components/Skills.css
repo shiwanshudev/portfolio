@@ -1,0 +1,63 @@
+.skills.container {
+  height: 100vh;
+  width: 100%;
+  background-color: slateblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skills h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #afa4eb;
+}
+
+.skills p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: #334250;
+  line-height: 1.4;
+}
+
+.skills .design {
+  background: white;
+  border-radius: 10px 0 0 10px;
+  width: 18rem;
+  border-right: 1px solid #e0dbff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.skills .development {
+  border-radius: 0 10px 10px 0;
+  padding: 2rem;
+  background: white;
+  width: 18rem;
+  text-align: center;
+}
+
+.skills .skill-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin: 1rem;
+  color: #afa4eb;
+}
+
+@media screen and (max-width: 900px) {
+  .skills.container {
+    flex-direction: column;
+    padding: 8rem 0;
+  }
+
+  .skills .design {
+    border-radius: 5px;
+    margin: 1rem 0;
+  }
+  .skills .development {
+    border-radius: 5px;
+    margin: 1rem 0;
+  }
+}
