@@ -1,6 +1,14 @@
 import "./Skills.css";
 import { GiPencilBrush } from "react-icons/gi";
 import { HiOutlineCode } from "react-icons/hi";
+import {
+  SiReact,
+  SiAdobephotoshop,
+  SiFigma,
+  SiNodedotjs,
+  SiPython,
+  SiJavascript,
+} from "react-icons/si";
 const Skills = () => {
   return (
     <div id="skills" className="skills container">
@@ -10,11 +18,18 @@ const Skills = () => {
           <GiPencilBrush />
         </span>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-          consequuntur suscipit explicabo assumenda doloremque, cum maxime
-          nesciunt harum quae rem quis asperiores sapiente quod! Veniam, id? Eum
-          iure animi aut.
+          I design UX, UI, Logo and Illustrations. The tools I use include Adobe
+          Photoshop, Figma, Krita, and Clip Studio Paint.
         </p>
+
+        <span className="skill-icon">
+          <i>
+            <SiAdobephotoshop />
+          </i>
+          <i>
+            <SiFigma />
+          </i>
+        </span>
       </section>
       <section className="development">
         <h3>Development</h3>
@@ -22,11 +37,23 @@ const Skills = () => {
           <HiOutlineCode />
         </span>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-          consequuntur suscipit explicabo assumenda doloremque, cum maxime
-          nesciunt harum quae rem quis asperiores sapiente quod! Veniam, id? Eum
-          iure animi aut.
+          I develop Web Applications using various technologies like HTML5,
+          CSS3, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB and Python.
         </p>
+        <span className="skill-icon">
+          <i>
+            <SiReact />
+          </i>
+          <i>
+            <SiNodedotjs />
+          </i>
+          <i>
+            <SiPython />
+          </i>
+          <i>
+            <SiJavascript />
+          </i>
+        </span>
       </section>
     </div>
   );

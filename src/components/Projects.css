@@ -86,7 +86,7 @@
   font-size: 1.7rem;
   font-weight: 300;
   padding-top: 1rem;
-  color: #afa4eb;
+  color: var(--lightSlateBlue);
 }
 
 .projects .card p {
@@ -94,7 +94,7 @@
   font-weight: 300;
   font-family: "Lato", sans-serif;
   padding: 1rem 0;
-  color: #334250;
+  color: var(--textColor);
 }
 
 @media screen and (max-width: 900px) {
