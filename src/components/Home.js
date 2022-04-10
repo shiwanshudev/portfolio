@@ -9,7 +9,9 @@ export default function Home() {
       <section className="text-content">
         <h1>Hi! I'm Shiwanshu!</h1>
         <p>I create web applications, ux designs and blog about technology.</p>
-        <a className="hire-button">Hire Me!</a>
+        <a className="hire-button" href="#about">
+          Hire Me!
+        </a>
       </section>
       <section className="home-vector">
         <img src={images.homeBg} alt="Home Vector" />

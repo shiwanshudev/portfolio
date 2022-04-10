@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import { Wip } from "./components/Wip";
 import Skills from "./components/Skills";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <Home />
       <Skills />
       <Projects />
-      <Wip />
+      <About />
     </div>
   );
 };

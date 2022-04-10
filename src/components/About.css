@@ -1,0 +1,80 @@
+.about.container {
+  background-color: slateblue;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 1rem;
+  text-transform: uppercase;
+  color: var(--textColor);
+}
+
+.about p {
+  text-align: center;
+  font-size: 1.47rem;
+  font-family: "Lato", sans-serif;
+  line-height: 1.4;
+  font-weight: 300;
+  color: var(--textColor);
+}
+
+.about .intro {
+  background-color: #fff;
+  padding: 3rem;
+  width: 50%;
+  border-radius: 10px;
+}
+.about .about-icon {
+  font-size: 3rem;
+  padding: 0 0 1rem 0;
+  color: var(--lightSlateBlue);
+  display: block;
+  text-align: center;
+}
+.about .contact-info {
+  width: 30%;
+  background-color: #3e3e83;
+  padding: 2rem;
+  border-radius: 0 0 10px 10px;
+}
+
+.about .contact-icons {
+  text-align: center;
+}
+.about .contact-icon {
+  font-size: 2.7rem;
+  padding: 0 0 1rem 0;
+  color: var(--lightSlateBlue);
+  text-align: center;
+  margin: 0.7rem;
+}
+
+.about .contact-info p {
+  text-align: center;
+  color: var(--lightSlateBlue);
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about .contact-icon:hover {
+  color: #ddd;
+}
+
+@media screen and (max-width: 900px) {
+  .about .contact-info {
+    width: 70vw;
+  }
+
+  .about .intro {
+    width: 70vw;
+  }
+}
