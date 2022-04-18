@@ -77,4 +77,8 @@
   .about .intro {
     width: 70vw;
   }
+
+  .about .contact-info p {
+    font-size: 1.28rem;
+  }
 }
